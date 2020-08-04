@@ -1,0 +1,83 @@
+@media(max-width: 880px) {
+    .btncheck {
+        display: block;
+        cursor: pointer;
+    }
+    nav {
+        background-color: #24252a;
+        position: fixed;
+    }
+    nav ul {
+        background-color: #24252aec;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+    }
+    .exibir-menu {
+        left: 0;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #33343b;
+        transition: all .5s;
+    }
+    nav ul li:hover {
+        background-color: #33343b;
+        cursor: pointer;
+    }
+    /***Page Home***/
+    #page-home h1 {
+        font-size: 48px;
+    }
+    #page-home p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    /***Conteudo imgs***/
+    #conteudos {
+        display: flex;
+        flex-direction: column;
+    }
+    /***About***/
+    #display-about {
+        display: flex;
+        flex-direction: column;
+    }
+    /***Contato***/
+    #contato {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #dados-nomes {
+        order: 2;
+    }
+    .posicionar-campos {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    #btn-enviar-pos {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #info-msg {
+        width: 100%;
+    }
+    #contatos-item-2 {
+        width: 100%;
+        order: 1;
+    }
+    #contatos-item-2 h2 {
+        font-size: 20px;
+    }
+    #voltar-pos {
+        margin-right: 10px;
+        margin-top: -180px;
+    }
+}
